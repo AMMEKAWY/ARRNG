@@ -23,7 +23,7 @@ double rn(double xmin=0, double xmax=10, double ymin=0, double ymax=1){
     double x =uniformx(gen);
     double fx=fn(x);
     
-    while (fx<y){
+    while (fx>=y){
     
         y =uniformy(gen);
         x =uniformx(gen);
